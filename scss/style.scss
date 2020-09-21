@@ -1,0 +1,65 @@
+// === Common ===
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0;
+}
+// === /Common ===
+
+// === Tabs ===
+.tabs-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.input {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.tab {
+    text-align: center;
+    padding: 20px;
+    flex-basis: 50%;
+}
+.tab-1 {
+}
+.tab-2 {
+}
+.content-1 {
+}
+.content {
+    width: 100%;
+    display: none;
+    padding: 20px;
+    background-color: #eee;
+}
+.content-2 {
+}
+
+#tab-1:checked ~ .tab-1 {
+    background-color: #eee;
+}
+#tab-1:checked ~ .content-1 {
+    display: block;
+}
+
+#tab-2:checked ~ .tab-2 {
+    background-color: #eee;
+}
+#tab-2:checked ~ .content-2 {
+    display: block;
+}
+
+// === /Tabs ===
