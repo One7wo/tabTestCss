@@ -42,21 +42,22 @@ body {
   width: 100%;
   display: none;
   padding: 20px;
-  background-color: #eee;
 }
 
 #tab-1:checked ~ .tab-1 {
-  background-color: #eee;
+  background-color: #8fda9f;
 }
 
 #tab-1:checked ~ .content-1 {
   display: block;
+  background-color: #8fda9f;
 }
 
 #tab-2:checked ~ .tab-2 {
-  background-color: #eee;
+  background-color: #c18dd1;
 }
 
 #tab-2:checked ~ .content-2 {
   display: block;
+  background-color: #c18dd1;
 }

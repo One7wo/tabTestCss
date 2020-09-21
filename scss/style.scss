@@ -43,23 +43,25 @@ body {
     width: 100%;
     display: none;
     padding: 20px;
-    background-color: #eee;
+    //background-color: #eee;
 }
 .content-2 {
 }
 
 #tab-1:checked ~ .tab-1 {
-    background-color: #eee;
+    background-color: rgb(143, 218, 159);
 }
 #tab-1:checked ~ .content-1 {
     display: block;
+    background-color: rgb(143, 218, 159);
 }
 
 #tab-2:checked ~ .tab-2 {
-    background-color: #eee;
+    background-color: rgb(193, 141, 209);
 }
 #tab-2:checked ~ .content-2 {
     display: block;
+    background-color: rgb(193, 141, 209);
 }
 
 // === /Tabs ===
